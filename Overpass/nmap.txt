@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Sat Mar 27 18:15:50 2021 as: nmap -sS -sV -v -oN nmap.txt 10.10.44.173
+Nmap scan report for 10.10.44.173
+Host is up (0.087s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 27 18:16:05 2021 -- 1 IP address (1 host up) scanned in 14.91 seconds

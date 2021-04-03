@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Fri Apr  2 13:19:22 2021 as: nmap -sS -sV -Pn -v -oN nmapInitial.txt 10.10.227.35

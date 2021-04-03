@@ -1,0 +1,54 @@
+# Nmap 7.91 scan initiated Sat Feb 13 22:53:34 2021 as: nmap -sS -sV -oN nmap.txt 10.10.237.154
+Nmap scan report for 10.10.237.154
+Host is up (0.094s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+8000/tcp open  http    (PHP 7.2.32-1)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8000-TCP:V=7.91%I=7%D=2/13%Time=60282E4E%P=x86_64-apple-darwin17.7.
+SF:0%r(GetRequest,29E1,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2013\x20F
+SF:eb\x202021\x2019:53:50\x20GMT\r\nConnection:\x20close\r\nX-Powered-By:\
+SF:x20PHP/7\.2\.32-1\+ubuntu18\.04\.1\+deb\.sury\.org\+1\r\nCache-Control:
+SF:\x20public,\x20s-maxage=600\r\nDate:\x20Sat,\x2013\x20Feb\x202021\x2019
+SF::53:50\x20GMT\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nX-Debu
+SF:g-Token:\x20e3a9fb\r\n\r\n<!doctype\x20html>\n<html\x20lang=\"en-GB\">\
+SF:n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20chars
+SF:et=\"utf-8\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"viewport
+SF:\"\x20content=\"width=device-width,\x20initial-scale=1\.0\">\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<title>Bolt\x20\
+SF:|\x20A\x20hero\x20is\x20unleashed</title>\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20<link\x20href=\"https://fonts\.googleapis\.com/css\?family=Bitter\|
+SF:Roboto:400,400i,700\"\x20rel=\"stylesheet\">\n\x20\x20\x20\x20\x20\x20\
+SF:x20\x20<link\x20rel=\"stylesheet\"\x20href=\"/theme/base-2018/css/bulma
+SF:\.css\?8ca0842ebb\">\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\"st
+SF:ylesheet\"\x20href=\"/theme/base-2018/css/theme\.css\?6cb66bfe9f\">\n\x
+SF:20\x20\x20\x20\t<meta\x20name=\"generator\"\x20content=\"Bolt\">\n\x20\
+SF:x20\x20\x20\t<link\x20rel=\"canonical\"\x20href=\"http://0\.0\.0\.0:800
+SF:0/\">\n\x20\x20\x20\x20</head>\n\x20\x20\x20\x20<body\x20class=\"front\
+SF:">\n\x20\x20\x20\x20\x20\x20\x20\x20<a\x20")%r(FourOhFourRequest,16C3,"
+SF:HTTP/1\.0\x20404\x20Not\x20Found\r\nDate:\x20Sat,\x2013\x20Feb\x202021\
+SF:x2019:53:50\x20GMT\r\nConnection:\x20close\r\nX-Powered-By:\x20PHP/7\.2
+SF:\.32-1\+ubuntu18\.04\.1\+deb\.sury\.org\+1\r\nCache-Control:\x20private
+SF:,\x20must-revalidate\r\nDate:\x20Sat,\x2013\x20Feb\x202021\x2019:53:50\
+SF:x20GMT\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\npragma:\x20no
+SF:-cache\r\nexpires:\x20-1\r\nX-Debug-Token:\x204be4ef\r\n\r\n<!doctype\x
+SF:20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20\x20\x20\
+SF:x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20i
+SF:nitial-scale=1\.0\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20<title>Bolt\x20\|\x20A\x20hero\x20is\x20unleashed</title
+SF:>\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20href=\"https://fonts\.googl
+SF:eapis\.com/css\?family=Bitter\|Roboto:400,400i,700\"\x20rel=\"styleshee
+SF:t\">\n\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20hr
+SF:ef=\"/theme/base-2018/css/bulma\.css\?8ca0842ebb\">\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"/theme/base-2018/cs
+SF:s/theme\.css\?6cb66bfe9f\">\n\x20\x20\x20\x20\t<meta\x20name=\"generato
+SF:r\"\x20content=\"Bolt\">\n\x20\x20\x20\x20</head>\n\x20\x20\x20\x20<bod
+SF:y>\n\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\"#main-content\"\x20cla
+SF:ss=\"vis");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 13 22:54:02 2021 -- 1 IP address (1 host up) scanned in 27.43 seconds
