@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Directory listing for /b5w4643p.default-release/</title>
+</head>
+<body>
+<h1>Directory listing for /b5w4643p.default-release/</h1>
+<hr>
+<ul>
+<li><a href=".parentlock">.parentlock</a></li>
+<li><a href="addons.json">addons.json</a></li>
+<li><a href="addonStartup.json.lz4">addonStartup.json.lz4</a></li>
+<li><a href="AlternateServices.txt">AlternateServices.txt</a></li>
+<li><a href="bookmarkbackups/">bookmarkbackups/</a></li>
+<li><a href="cert9.db">cert9.db</a></li>
+<li><a href="compatibility.ini">compatibility.ini</a></li>
+<li><a href="containers.json">containers.json</a></li>
+<li><a href="content-prefs.sqlite">content-prefs.sqlite</a></li>
+<li><a href="cookies.sqlite">cookies.sqlite</a></li>
+<li><a href="crashes/">crashes/</a></li>
+<li><a href="datareporting/">datareporting/</a></li>
+<li><a href="extension-preferences.json">extension-preferences.json</a></li>
+<li><a href="extensions/">extensions/</a></li>
+<li><a href="extensions.json">extensions.json</a></li>
+<li><a href="favicons.sqlite">favicons.sqlite</a></li>
+<li><a href="formhistory.sqlite">formhistory.sqlite</a></li>
+<li><a href="handlers.json">handlers.json</a></li>
+<li><a href="key4.db">key4.db</a></li>
+<li><a href="lock">lock</a></li>
+<li><a href="logins.json">logins.json</a></li>
+<li><a href="minidumps/">minidumps/</a></li>
+<li><a href="permissions.sqlite">permissions.sqlite</a></li>
+<li><a href="pkcs11.txt">pkcs11.txt</a></li>
+<li><a href="places.sqlite">places.sqlite</a></li>
+<li><a href="prefs.js">prefs.js</a></li>
+<li><a href="protections.sqlite">protections.sqlite</a></li>
+<li><a href="saved-telemetry-pings/">saved-telemetry-pings/</a></li>
+<li><a href="search.json.mozlz4">search.json.mozlz4</a></li>
+<li><a href="security_state/">security_state/</a></li>
+<li><a href="SecurityPreloadState.txt">SecurityPreloadState.txt</a></li>
+<li><a href="sessionCheckpoints.json">sessionCheckpoints.json</a></li>
+<li><a href="sessionstore-backups/">sessionstore-backups/</a></li>
+<li><a href="sessionstore.jsonlz4">sessionstore.jsonlz4</a></li>
+<li><a href="shield-preference-experiments.json">shield-preference-experiments.json</a></li>
+<li><a href="SiteSecurityServiceState.txt">SiteSecurityServiceState.txt</a></li>
+<li><a href="storage/">storage/</a></li>
+<li><a href="storage.sqlite">storage.sqlite</a></li>
+<li><a href="times.json">times.json</a></li>
+<li><a href="TRRBlacklist.txt">TRRBlacklist.txt</a></li>
+<li><a href="webappsstore.sqlite">webappsstore.sqlite</a></li>
+<li><a href="xulstore.json">xulstore.json</a></li>
+</ul>
+<hr>
+</body>
+</html>
