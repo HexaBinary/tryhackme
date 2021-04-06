@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Tue Apr  6 10:33:13 2021 as: nmap -sS -sV -v -oN nmap.txt 10.10.216.8
+Nmap scan report for 10.10.216.8
+Host is up (0.090s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.14.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  6 10:33:24 2021 -- 1 IP address (1 host up) scanned in 10.45 seconds

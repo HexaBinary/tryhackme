@@ -18,7 +18,8 @@ rockinroll
 
 ssh uname: john
 
-
+root passwd
+football
 
 **FLAGS**
 web
