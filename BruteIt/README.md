@@ -13,8 +13,19 @@ paswd: xavier
 ssh RSA key
 http://10.10.53.177/admin/panel/id_rsa
 
+key passphrase:
+rockinroll
+
+ssh uname: john
 
 
 
 **FLAGS**
+web
 THM{brut3_f0rce_is_e4sy}
+
+user.txt
+THM{a_password_is_not_a_barrier}
+
+root.txt
+THM{pr1v1l3g3_3sc4l4t10n}
