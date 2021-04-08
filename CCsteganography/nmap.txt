@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Thu Apr  8 11:15:02 2021 as: nmap -sS -sC -v -oN nmap.txt 10.10.40.239
+Nmap scan report for 10.10.40.239
+Host is up (0.090s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Test1
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Thu Apr  8 11:15:07 2021 -- 1 IP address (1 host up) scanned in 5.00 seconds
