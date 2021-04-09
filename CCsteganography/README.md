@@ -9,3 +9,4 @@ https://imgur.com/KTrtNI5
 **KEYS**
 superkeykey
 fatality
+killshot
